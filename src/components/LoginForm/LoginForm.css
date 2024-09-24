@@ -1,0 +1,30 @@
+.loginDialog{
+    border: 1px solid grey;
+    border-radius: 5%;
+    width: max-content;
+    margin: 7% auto;    
+}
+
+.Logintext{
+    padding: 5%;
+    text-align: center;
+}
+
+.loginEmailLabel, .loginPasswordLabel{
+    width: 40%;
+}
+
+.loginEmailInput, .loginPasswordInput{
+    width: 60%;
+    outline: 1px solid black;
+}
+
+.loginButton{
+    display: flex;
+    justify-content: center;
+}
+
+.createAccountText{
+    font-size: small;
+    text-align: center;
+}

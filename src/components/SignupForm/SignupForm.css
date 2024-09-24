@@ -1,0 +1,56 @@
+.signupDialog{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 55%;
+    margin: 5% auto;
+    padding: 2%;
+}
+
+.signupText{
+    padding: 1% 0 3% 0;
+    text-align: center;
+}
+
+.signupName,
+.signupEmailPhone,
+.signupPassword{
+    padding: 2% 0;
+}
+
+.firstNameLabel, 
+.lastNameLabel, 
+.signupEmailLabel, 
+.phoneLabel, 
+.signupPasswordLabel, 
+.confirmPasswordLabel{
+    width: 22%;
+    font-size: 13px;
+    font-weight: 700;
+    /* margin-left: 3%; */
+    /* font-size: small; */
+}
+
+.firstNameInput, 
+.lastNameInput, 
+.signupEmailInput, 
+.phoneInput, 
+.signupPasswordInput,
+.confirmPasswordInput{
+    width: 26%;
+    outline: 1px solid black;
+    font-size: 13px; /*medium = 16px*/
+    border-radius: 2px;
+    padding: 0.5% 1%;
+}
+
+.firstNameInput, 
+.signupEmailInput, 
+.signupPasswordInput{
+    margin-right: 3%;
+}
+
+.signupButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
